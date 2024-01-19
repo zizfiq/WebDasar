@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2e5bf;
+}
+
+header {
+  background-color: #257180;
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #cb6040;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #f2e5bf;
+}
+
+nav {
+  background-color: #fd8b51;
+  padding: 10px;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#content {
+  width: 70%;
+}
+
+aside {
+  width: 25%;
+  background-color: #cb6040;
+  padding: 15px;
+  border: 1px solid #f2e5bf;
+}
+
+.section {
+  display: none;
+}
+
+#beranda:target,
+#produk:target,
+#kontak:target {
+  display: block;
+}
+
+.laptop-image {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+
+.section img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+footer {
+  background-color: #257180;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #cb6040;
+}
+
+.produk-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.produk-item {
+  text-align: center;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+footer {
+  background-color: #257180;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #cb6040;
+  margin-top: auto;
+}
